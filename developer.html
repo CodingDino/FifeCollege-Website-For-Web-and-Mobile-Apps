@@ -8,5 +8,51 @@
         <p>Developer</p>
         
         <h1>About the Developer</h1>
+        
+        
+        <form action="mailto:sarah@boundergames.com" method="GET">
+        
+            <p>Contact the developer:</p>
+            
+            <p>Subject: <input type="text" name="subject"/></p>
+            
+            <p>Message:</p>
+            
+            <textarea name="body">Type your message here...</textarea>
+            
+            <p>Message related to game:
+                <br />
+            <input type="radio" name="game" value="armoured_engines" checked="checked" /> Armoured Engines
+            <input type="radio" name="game" value="combo_carts" /> Combo Carts
+            <input type="radio" name="game" value="soulmates" /> Soulmates
+            </p>
+            
+            <p>Message related to game:
+                <br />
+            <input type="checkbox" name="game_check" value="ae"> Armoured Engines
+            <input type="checkbox" name="game_check" value="cc"> Combo Carts
+            <input type="checkbox" name="game_check" value="sm"> Soulmates
+                
+            </p>
+            
+            
+            
+            <p>Message related to game:
+                <br />
+                
+                <select name="game_select" multiple="multiple">
+                    <option value="ae">Armoured Engines</option>
+                    <option value="cc">Combo Carts</option>
+                    <option value="sm">Soulmates</option>
+                </select>
+                
+            </p>
+            
+            <input type="submit" name="submit_button" value="Send"/>
+            
+            
+        </form>
+        
+        
     </body>
 </html>

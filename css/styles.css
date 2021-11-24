@@ -1,13 +1,19 @@
 body {
     color: #66CDAA;
     color: hsl(300,80%,50%);
+    font-family: Ubuntu;
+    font-size: 16px;
 }
 
 h1, h2 {
       
     background-color: aquamarine;
     color: darkblue;
-    
+    font-family: Impact, fantasy;
+    text-align: center;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+    font-weight: 100;
 }
 .character_name {
     
@@ -17,8 +23,28 @@ h1, h2 {
 span.character_name {
     
     color:crimson;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: blink;
     
 }
 #last {
     color: darkgoldenrod;
+}
+a {
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    line-height: 1.4em;
+    text-indent: 20px;
+}
+p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+p:first-line {
+    font-style: italic;
 }

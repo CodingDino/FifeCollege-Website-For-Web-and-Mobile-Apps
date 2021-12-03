@@ -1,7 +1,7 @@
 body {
-    color: #66CDAA;
+    color: #66CDAA; 
     color: hsl(300,80%,50%);
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     font-size: 16px;
 }
 
@@ -47,4 +47,26 @@ p:first-letter {
 }
 p:first-line {
     font-style: italic;
+}
+
+#divBox {
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: #ee3e80;
+    border: 5px outset #0088dd;
+    box-shadow: 20px 20px 20px #333333;
+}
+
+.pClass {
+    width: 60%;
+    background-color: #e1ddda;
+    border-style: solid;
+    border-width: thick;
+    border-color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    visibility: ;
 }

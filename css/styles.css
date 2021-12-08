@@ -4,13 +4,12 @@ body {
     font-family: "Ubuntu";
     font-size: 16px;
     
-    background-image: url("images/tile.png");
 }
 
 h1, h2 {
       
     background-color: aquamarine;
-    color: darkblue;
+    color: mediumvioletred;
     font-family: Impact, fantasy;
     text-align: center;
     letter-spacing: 0.1em;
@@ -58,6 +57,7 @@ p:first-line {
     background-color: #ee3e80;
     border: 5px outset #0088dd;
     box-shadow: 20px 20px 20px #333333;
+    background-image: url("../images/background.png");
 }
 
 .pClass {
